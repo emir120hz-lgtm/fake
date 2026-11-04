@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fakemoney",
+  "version": "${version}",
+  "name": "FakeMoney",
+  "description": "Sohbete sadece sende gorunen sahte para mesajlari dusurur ve /pay komutunu sunucuya gondermeden yerelde taklit eder. Menu: Sag Shift.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["fakemoney.FakeMoneyMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
